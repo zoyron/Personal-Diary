@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>final practise</title>
+  </head>
+  <body>
+    <h4><a href = "{% url 'post_new' %}">create a new post here</a></h4>
+    <h4><a href = ""{% url 'draft_list' %}>see you drafted posts here.</a></h4>
+    <h1><a href = "/">MY SHITTY BLOG</a></h1>
+    {% block content %}
+    {% endblock %}
+
+    <p>Sagar Arora</p>
+    <p>A.K.A Zoyron</p>
+  </body>
+</html>
